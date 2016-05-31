@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sam</title>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
+    </head>
+    <style media="screen">
+
+        /*.
+        .carousel-inner > .item > a > img,
+        .carousel-inner > .item > img {
+            width: 80%;
+            margin-left: 10%;
+            height: 500px;
+        }
+        #myCarousel {
+            height: 600px;
+        }
+        .carousel-control.right {
+            background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(8,7,7,0.67) 100%);
+        }
+        .carousel-control.left {
+            background-image: linear-gradient(to left,rgba(0,0,0,.0001) 0,rgba(8,7,7,0.67) 100%);
+        }*/
+        p {
+            color: white;
+        }
+        li.dropdown {
+            margin-right: 20px;
+        }
+        body,
+        html {
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+        }
+        section {
+            min-height: 100%;
+            padding: 40px 20px;
+        }
+        .jumbotron {
+            margin-bottom: 0;
+        }
+        #Loxodonta {
+            background-image: url("img/a7.jpg");
+            height: 100%;
+        }
+        .header {
+            background-image: url("img/a7.jpg");
+            height: 80%;
+        }
+        .thumbnail {
+            background-color: black;
+            border: 1px solid rgba(251, 251, 251, 0.14);
+        }
+        a {
+            color: rgba(236, 236, 236, 0.47);
+        }
+        a:focus,
+        a:hover {
+            color: rgba(236, 236, 236, 0.47);
+            text-decoration: none;
+        }
+        a.thumbnail:hover {
+            border-color: rgba(236, 236, 236, 0.47);
+        }
+
+    </style>
+    <body>
+        <!-- INICIO DE NAVBAR -->
+        <div class="header">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <!-- Marca y titulo se agrupan para que se 'vea' mejor en dispositivos moviles -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse">
+                        <!--el sr-only para lectores de páginas -->
+                        <span class="sr-only">Toggle navigation</span>
+                        <!-- las rallitas del menu -->
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <p class="navbar-brand">
+                        <i class="fa fa-cube fa-lg">SS</i>
+                    </p>
+
+                </div>
+
+                <!-- Aqui ponemos todos los links, forms y elementos expandibles -->
+                <div class="collapse navbar-collapse" id="bs-navbar-collapse">
+                    <p style="font-weight: bold" class="nav navbar-left navbar-text">Página web de Samuel S.</p>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a class="" data-toggle="modal" data-target="#myModal">Contacto</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Más trabajos
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <!-- clase del scroll -->
+                                <li class="page-scroll">
+                                    <a href="#Loxodonta">Test page scroll</a>
+                                </li>
+                                <li>
+                                    <a href="#">.</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">.
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">.
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <!-- myModal es al que llamamos desde el data-target anterior (Contacto) -->
+
+                </div>
+            </nav>
+            <div id="imo">
+                <div class="jumbotron" style="background: transparent !important">
+                    <div class="container">
+                        <h1 class="page-header" style="font-size: 66px; border-bottom: 0px !important">test1</h1>
+                        <p>test2</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FIN DEL NAVBAR -->
+
+          <section class="container-fluid">
+              <div class="row">
+                  <div class="col-xs-12 col-md-6 col-lg-4">
+                      <a href="#" class="thumbnail">
+                          <img src="img/a2.jpg">1
+                      </a>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <a href="#" class="thumbnail">
+                        <img src="img/a2.jpg">2
+                    </a>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <a href="#" class="thumbnail">
+                        <img src="img/a2.jpg">3
+                    </a>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <a href="#" class="thumbnail">
+                        <img src="img/a2.jpg">4
+                    </a>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <a href="#" class="thumbnail">
+                        <img src="img/a2.jpg">5
+                    </a>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <a href="#" class="thumbnail">
+                        <img src="img/a2.jpg">6
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid" id="Loxodonta">
+            <p>
+                "Lorem "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum "Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                officia deserunt mollit anim id est laborum
+            </p>
+        </section>
+
+        <!-- CONTACTO CODIGO -->
+        <div class="modal fade" id="myModal">
+            <!-- un poco de estilos, si no ocuparía toda la pantalla en este caso-->
+            <div class="modal-dialog">
+                <!-- el contenido-->
+                <div class="modal-content">
+                    <!-- cabecera del modal (titulo y la x para cerrar, el &times;-->
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title">Contactar con Samuel</h4>
+                    </div>
+                    <!-- cuerpo del modal-->
+                    <div class="modal-body">
+                        <!-- podemos poner lo que conocemos de bootstrap
+             si ponemos un container en lugar de un container-fluid no se vera bien,
+             ocuparía demasiado-->
+                        <div class="container-fluid">
+                            <!-- un form clasico de bootstrap-->
+                            <!-- <h2>Aqui puede ir un subtitulo</h2> -->
+                            <img src="img/a7.jpg" alt=""/>
+                        </div>
+                        <br>
+                        <!-- y si queremos podemos añadir el contenido que nos apetezca -->
+
+                    </div>
+
+                    <!-- el pie de página del footer-->
+                    <div class="modal-footer">
+                        <!-- con el data-dismiss="modal" decimos que se cierre-->
+                        <button type="button" class="btn btn-default" data-dismiss="modal">
+                            Close
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                            Save changes
+                        </button>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+
+        <!-- /.modal -->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+        <!-- SMOOTH SCROLLv CÓDIGO PARA HACER EL SMOOTH SCROLL (el deslizamiento al elemento del menu) -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+        <script src="js/boots-scrolling.js"></script>
+        <!-- FIN SMOOTH SCROLL -->
+    </body>
+</html>
